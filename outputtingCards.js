@@ -19,8 +19,7 @@ function printCards(suit) {
     for (let j = 0; j < 14; j++) {
         if (j < 11 && j > 1) {
             console.log(j, "of", suit);
-        }
-        else if (j == 1) {
+        } else if (j == 1) {
             console.log("Ace of", suit)
         } else if (j == 11) {
             console.log("Jack of", suit)
