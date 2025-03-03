@@ -1,14 +1,11 @@
 for (let i = 0; i < 4; i++) {
     if (i == 1) {
         suit = "Hearts"
-    }
-    if (i == 2) {
+    } else if (i == 2) {
         suit = "Spades"
-    }
-    if (i == 3) {
+    } else if (i == 3) {
        suit = "Diamonds";
-    }
-    if (i == 0) {
+    } else if (i == 0) {
        suit = "Clubs";
     }
     printCards(suit)
