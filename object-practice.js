@@ -21,3 +21,4 @@ student2.fname = "hugiap"
 students[students.length - 1].gpa += 0.5
 console.table(students)
 
+         
